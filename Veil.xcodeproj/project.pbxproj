@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		914A18D030A2A2EF00DDB3DB /* Veil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Veil.app; path = /Users/bennett/Desktop/CS/PersonalProjects/Veil/build/Debug/Veil.app; sourceTree = "<absolute>"; };
-		914A18DF30A2A2F100DDB3DB /* VeilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VeilTests.xctest; path = /Users/bennett/Desktop/CS/PersonalProjects/Veil/build/Debug/Veil.app/Contents/PlugIns/VeilTests.xctest; sourceTree = "<absolute>"; };
-		914A18E930A2A2F100DDB3DB /* VeilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VeilUITests.xctest; path = "/Users/bennett/Desktop/CS/PersonalProjects/Veil/build/Debug/VeilUITests-Runner.app/Contents/PlugIns/VeilUITests.xctest"; sourceTree = "<absolute>"; };
+		9116801030A3BB6C00B7F151 /* Veil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116801130A3BB6C00B7F151 /* VeilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116801230A3BB6C00B7F151 /* VeilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914A18FF30A2A4A400DDB3DB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +72,9 @@
 			children = (
 				914A18FF30A2A4A400DDB3DB /* .gitignore */,
 				914A18D230A2A2EF00DDB3DB /* Veil */,
+				9116801030A3BB6C00B7F151 /* Veil.app */,
+				9116801130A3BB6C00B7F151 /* VeilTests.xctest */,
+				9116801230A3BB6C00B7F151 /* VeilUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +100,7 @@
 			packageProductDependencies = (
 			);
 			productName = Veil;
-			productReference = 914A18D030A2A2EF00DDB3DB /* Veil.app */;
+			productReference = 9116801030A3BB6C00B7F151 /* Veil.app */;
 			productType = "com.apple.product-type.application";
 		};
 		914A18DE30A2A2F100DDB3DB /* VeilTests */ = {
@@ -117,7 +120,7 @@
 			packageProductDependencies = (
 			);
 			productName = VeilTests;
-			productReference = 914A18DF30A2A2F100DDB3DB /* VeilTests.xctest */;
+			productReference = 9116801130A3BB6C00B7F151 /* VeilTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		914A18E830A2A2F100DDB3DB /* VeilUITests */ = {
@@ -137,7 +140,7 @@
 			packageProductDependencies = (
 			);
 			productName = VeilUITests;
-			productReference = 914A18E930A2A2F100DDB3DB /* VeilUITests.xctest */;
+			productReference = 9116801230A3BB6C00B7F151 /* VeilUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -381,6 +384,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -413,6 +417,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -10,3 +10,8 @@ xcuserdata/
 # Swift Package Manager
 .build/
 .swiftpm/
+
+# Agents
+.agents/
+AGENTS.md
+skills-lock.json
